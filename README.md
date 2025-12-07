@@ -49,7 +49,7 @@ You can download my CV here:
 - **Email:** kipsoikibet2@gmail.com  
 - **Phone:** +254790264792  
 - **GitHub:** [https://github.com/quan0790](https://github.com/quan0790)  
-- **LinkedIn:** (Add your LinkedIn URL)
+- 
 
 ---
 

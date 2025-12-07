@@ -1,73 +1,87 @@
-# Welcome to your Lovable project
+# Davis Kibet Portfolio
 
-## Project info
+Welcome to the personal portfolio of **Davis Kibet Kipsoi**, a passionate software engineer and full-stack developer. This portfolio showcases projects, skills, and professional journey.
 
-**URL**: https://lovable.dev/projects/33fe90ba-8907-426e-b082-564da57b0d9f
+---
 
-## How can I edit this code?
+## 🚀 About Me
 
-There are several ways of editing your application.
+- **Name:** Davis Kibet Kipsoi  
+- **Location:** Nairobi, Kenya  
+- **Education:** BSc Information Science, Mount Kenya University  
+- **Alumnus:** Power Learn Project  
+- **Skills:** Web & Mobile Development, UI/UX Design, Cloud, DevOps, and more  
+- **Profile:** Self-taught developer with a passion for building scalable and efficient solutions
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/33fe90ba-8907-426e-b082-564da57b0d9f) and start prompting.
+## 🛠 Technologies & Tools
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend:** React, Next.js, Vue.js, TypeScript, TailwindCSS  
+- **DevOps / Cloud:** Docker, AWS, Linux  
+- **Others:** Git & GitHub,
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 💻 Projects
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Here are some of the projects featured in this portfolio:
 
-Follow these steps:
+- **My Profile Portfolio**  
+  Rental management platform for properties, tenants, invoices, and digital payments.  
+  Stack: React, Node.js, Express, MongoDB  
+  [GitHub Repository](https://github.com/quan0790/The_Residence_)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Other projects include e-commerce platforms, solar management systems, and more (details inside the portfolio).
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📄 Download CV
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+You can download my CV here:
+
+[Download CV](src/assets/DAVIS_KIBET_RESUME_updated.pdf)
+
+---
+
+## 📫 Contact
+
+- **Email:** kipsoikibet2@gmail.com  
+- **Phone:** +254790264792  
+- **GitHub:** [https://github.com/quan0790](https://github.com/quan0790)  
+- **LinkedIn:** (Add your LinkedIn URL)
+
+---
+
+## ⚡ Features
+
+- Interactive UI with animations (Framer Motion)  
+- Fully responsive design  
+- Skills & tech stack showcase  
+- Projects with GitHub links and descriptions  
+- Downloadable CV  
+- Contact form integration
+
+---
+
+## 📦 Installation
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/quan0790/davis-s-modern-portfolio.git
+Navigate to the project directory:
+
+bash
+Copy code
+cd davis-s-modern-portfolio-main
+Install dependencies:
+
+bash
+Copy code
+npm install
+Run the development server:
+
+
+Copy code
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/33fe90ba-8907-426e-b082-564da57b0d9f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Open http://localhost:5173 to view it in the browser.

@@ -27,7 +27,7 @@ export function Footer() {
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2">
               <span className="font-display text-2xl font-bold gradient-text">
-                &lt;Davies /&gt;
+                &lt;Davies.dev /&gt;
               </span>
             </Link>
             <p className="text-muted-foreground text-sm max-w-xs">

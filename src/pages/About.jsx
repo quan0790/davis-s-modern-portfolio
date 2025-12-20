@@ -11,7 +11,7 @@ import { skills, techStack } from "@/data/skills";
 const cvFile = "/assets/DAVIS_KIBET_RESUME_updated.pdf";
 
 // ✅ Original profile image import from src/assets
-import profileAvatar from "/assets/profile.jpg";
+import profileAvatar from "/assets/Profile.jpeg";
 
 export default function About() {
   const containerRef = useRef(null);
@@ -40,14 +40,14 @@ export default function About() {
             >
               <div className="relative w-full max-w-md mx-auto">
                 <motion.div 
-                  className="aspect-square rounded-2xl overflow-hidden glass card-shadow"
+                  className="rounded-2xl overflow-hidden glass card-shadow"
                   whileHover={{ scale: 1.02, rotateY: 5 }}
                   transition={{ duration: 0.4 }}
                 >
                   <motion.img
                     src={profileAvatar}
                     alt="Davis Kibet Kipsoi"
-                    className="w-full h-full object-cover"
+                    className="w-full h-auto object-contain"
                     style={{ opacity }}
                     whileHover={{ scale: 1.1 }}
                     transition={{ duration: 0.6 }}

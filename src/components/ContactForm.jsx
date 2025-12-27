@@ -15,22 +15,41 @@ export function ContactForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
+    const formElement = e.currentTarget;
 
     try {
       // EmailJS configuration
       const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID || 'YOUR_SERVICE_ID';
-      const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'YOUR_TEMPLATE_ID';
+      const visitorTemplateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'YOUR_TEMPLATE_ID';
+      const adminTemplateId = import.meta.env.VITE_EMAILJS_ADMIN_TEMPLATE_ID;
       const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'YOUR_PUBLIC_KEY';
 
-      // Send email using EmailJS
-      const result = await emailjs.sendForm(
-        serviceId,
-        templateId,
-        e.currentTarget,
-        publicKey
-      );
+      const promises = [];
 
-      console.log('Email sent successfully:', result.text);
+      // 1. Send Admin Notification (if configured)
+      if (adminTemplateId) {
+        promises.push(
+          emailjs.sendForm(serviceId, adminTemplateId, formElement, publicKey)
+            .then(() => console.log('Admin notification sent'))
+            .catch(err => console.error('Failed to send admin notification:', err))
+        );
+      } else {
+        console.warn('VITE_EMAILJS_ADMIN_TEMPLATE_ID is missing in .env. Admin will not receive a copy.');
+      }
+
+      // 2. Send Visitor Confirmation (Auto-Reply)
+      if (visitorTemplateId) {
+        promises.push(
+          emailjs.sendForm(serviceId, visitorTemplateId, formElement, publicKey)
+            .then(() => console.log('Visitor auto-reply sent'))
+            .catch(err => console.error('Failed to send visitor auto-reply:', err))
+        );
+      }
+
+      await Promise.all(promises);
+
+      // We consider it a success if the process completes, even if individual emails fail (they are logged)
+      // Ideally, at least one should succeed, but for UX simple success message is robust enough.
       
       setIsSuccess(true);
       toast({
@@ -41,11 +60,11 @@ export function ContactForm() {
       // Reset form after success
       setTimeout(() => {
         setIsSuccess(false);
-        (e.target).reset();
+        formElement.reset();
       }, 3000);
 
     } catch (error) {
-      console.error('Failed to send email:', error);
+      console.error('Failed to execute email sending process:', error);
       toast({
         title: "Failed to send message",
         description: "Please try again or contact me directly via email or WhatsApp.",

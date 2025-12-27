@@ -30,9 +30,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <span className="font-display text-xl font-bold gradient-text">
-              &lt;Davies.dev /&gt;
-            </span>
+            <img src="/assets/logo.png" alt="Davies.dev" className="h-10 w-auto object-contain" />
           </Link>
 
           {/* Desktop Navigation */}
@@ -112,7 +110,7 @@ export function Navbar() {
               ))}
               <div className="flex items-center gap-2 px-4 pt-2">
                 <Button variant="ghost" size="icon" asChild>
-                  <a href="https://github.com/daviskipsoi" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/davies-dev404" target="_blank" rel="noopener noreferrer">
                     <Github className="h-4 w-4" />
                   </a>
                 </Button>

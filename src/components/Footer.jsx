@@ -26,9 +26,7 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-2">
-              <span className="font-display text-2xl font-bold gradient-text">
-                &lt;Davies.dev /&gt;
-              </span>
+              <img src="/assets/logo.png" alt="Davies.dev" className="h-12 w-auto object-contain" />
             </Link>
             <p className="text-muted-foreground text-sm max-w-xs">
               Building digital experiences with clean code and modern technologies.

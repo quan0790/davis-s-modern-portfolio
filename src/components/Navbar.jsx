@@ -99,7 +99,7 @@ export function Navbar() {
                   to={link.path}
                   onClick={() => setIsOpen(false)}
                   className={cn(
-                    "px-4 py-3 rounded-lg text-sm font-medium transition-all",
+                    "px-4 py-4 rounded-lg text-sm font-medium transition-all",
                     location.pathname === link.path
                       ? "text-primary bg-primary/10"
                       : "text-muted-foreground hover:text-foreground hover:bg-muted"

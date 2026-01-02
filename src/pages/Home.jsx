@@ -70,7 +70,7 @@ export default function Home() {
                 animate={{ boxShadow: ["0 0 0 0 hsl(var(--primary) / 0.4)", "0 0 0 10px hsl(var(--primary) / 0)", "0 0 0 0 hsl(var(--primary) / 0)"] }}
                 transition={{ duration: 2, repeat: Infinity }}
               >
-                Available for freelance work
+                Available for work
               </motion.span>
             </motion.div>
 
@@ -79,7 +79,7 @@ export default function Home() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
-              className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6"
+              className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-6"
             >
               Hi, I'm{" "}
               <motion.span 
@@ -177,7 +177,7 @@ export default function Home() {
       </section>
 
       {/* Featured Projects */}
-      <section className="py-24 bg-background">
+      <section className="py-12 md:py-24 bg-background">
         <div className="container mx-auto px-4">
           <SectionHeading
             badge="Portfolio"
@@ -206,7 +206,7 @@ export default function Home() {
       </section>
 
       {/* Services */}
-      <section className="py-24 bg-card">
+      <section className="py-12 md:py-24 bg-card">
         <div className="container mx-auto px-4">
           <SectionHeading
             badge="Services"
@@ -236,7 +236,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 hero-gradient relative overflow-hidden">
+      <section className="py-12 md:py-24 hero-gradient relative overflow-hidden">
         <motion.div 
           className="absolute inset-0 opacity-30"
           animate={{ 

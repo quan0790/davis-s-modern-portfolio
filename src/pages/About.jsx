@@ -1,5 +1,5 @@
 import { motion, useScroll, useTransform } from "framer-motion"; 
-import { Download, MapPin, GraduationCap } from "lucide-react";
+import { Download, MapPin, GraduationCap, Film, Plane, ChefHat, Music, Book, Gamepad2 } from "lucide-react";
 import { useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Layout } from "@/components/Layout";
@@ -21,20 +21,17 @@ export default function About() {
   });
   
   const y = useTransform(scrollYProgress, [0, 1], [0, -50]);
-  const opacity = useTransform(scrollYProgress, [0, 0.3, 0.7, 1], [0.6, 1, 1, 0.6]);
+  const opacity = useTransform(scrollYProgress, [0, 0.3, 0.7, 1], [1, 1, 1, 0.6]);
 
   return (
     <Layout>
       {/* Hero */}
-      <section className="py-24 hero-gradient" ref={containerRef}>
+      <section className="py-12 md:py-24 hero-gradient" ref={containerRef}>
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             
             {/* Image */}
             <motion.div
-              initial={{ opacity: 0, x: -50 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.6 }}
               className="relative"
               style={{ y }}
             >
@@ -47,6 +44,7 @@ export default function About() {
                   <motion.img
                     src={profileAvatar}
                     alt="Davis Kibet Kipsoi"
+                    fetchPriority="high"
                     className="w-full h-auto object-contain"
                     style={{ opacity }}
                     whileHover={{ scale: 1.1 }}
@@ -113,7 +111,7 @@ export default function About() {
       </section>
 
       {/* Skills */}
-      <section className="py-24 bg-background">
+      <section className="py-12 md:py-24 bg-background">
         <div className="container mx-auto px-4">
           <SectionHeading
             badge="Expertise"
@@ -158,6 +156,65 @@ export default function About() {
                   </motion.span>
                 ))}
               </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* Interests Section */}
+      <section className="py-12 md:py-24 bg-card overflow-hidden">
+        <div className="container mx-auto px-4">
+          <SectionHeading
+            badge="Lifestyle"
+            title="Beyond the Code"
+            description="What keeps me inspired and balanced when I'm away from the keyboard."
+          />
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            {/* Interests Grid */}
+            <div className="grid grid-cols-2 gap-4">
+              {[
+                { icon: Film, label: "Movies", desc: "Sci-Fi & Cinema" },
+                { icon: Plane, label: "Travelling", desc: "Exploring Cultures" },
+                { icon: ChefHat, label: "Cooking", desc: "Culinary Experiments" },
+                { icon: Music, label: "Music", desc: "Afro-beats & Jazz" },
+                { icon: Book, label: "Reading", desc: "Books & Blogs" },
+                { icon: Gamepad2, label: "Gaming", desc: "Strategy Games" },
+              ].map((item, index) => (
+                <motion.div
+                  key={item.label}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1 }}
+                  whileHover={{ scale: 1.05, backgroundColor: "hsl(var(--primary) / 0.05)" }}
+                  className="p-4 rounded-xl border border-border bg-background/50 hover:border-primary/50 transition-colors"
+                >
+                  <item.icon className="h-8 w-8 text-primary mb-3" />
+                  <h4 className="font-semibold text-foreground">{item.label}</h4>
+                  <p className="text-sm text-muted-foreground">{item.desc}</p>
+                </motion.div>
+              ))}
+            </div>
+
+            {/* Collage Image */}
+            <motion.div
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.8 }}
+              className="relative"
+            >
+              <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl skew-y-3 hover:skew-y-0 transition-transform duration-500">
+                <img 
+                  src="/assets/interests-collage.png" 
+                  alt="Interests Collage" 
+                  className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
+                />
+              </div>
+              {/* Decorative elements */}
+              <div className="absolute -top-10 -right-10 w-40 h-40 bg-primary/20 rounded-full blur-3xl" />
+              <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-accent/20 rounded-full blur-3xl" />
             </motion.div>
           </div>
         </div>

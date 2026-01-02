@@ -1,0 +1,72 @@
+{
+  "https://github.com/davies-dev404/crotchet-atelier-online-main": {
+    "image": "/assets/ecom.png",
+    "stack": ["React", "Node.js", "Stripe"],
+    "featured": true,
+    "title": "E-Commerce Platform",
+    "description": "A full-stack e-commerce solution with real-time inventory, payment processing, and admin dashboard."
+  },
+  "https://github.com/davies-dev404/Jirani_Eats": {
+    "image": "/assets/Jirani.png",
+    "stack": ["React", "Node.js", "Express", "MongoDB"],
+    "featured": true,
+    "title": "FoodShare App",
+    "description": "A community donation app helping users share excess food with nearby recipients and organizations."
+  },
+  "https://github.com/davies-dev404/rent_manager": {
+    "image": "/assets/rental man.png",
+    "stack": ["React", "Node.js", "Express", "MongoDB"],
+    "featured": false,
+    "title": "Dwellio– Rental Management System",
+    "description": "Rental management platform for properties, tenants, invoices, and digital payments."
+  },
+  "https://github.com/davies-dev404/davis-s-modern-portfolio": {
+    "image": "/assets/portfolio.png",
+    "stack": ["React", "Node.js", "Express"],
+    "featured": false,
+    "title": "My Personal Portfolio",
+    "description": "A personal portfolio website showcasing my projects, skills, and professional experience."
+  },
+  "https://github.com/davies-dev404/Gulfstream_": {
+    "image": "/assets/gulfstream.png",
+    "stack": ["React", "Node.js", "Express", "MongoDB"],
+    "featured": true,
+    "title": "Gulfstream – E-Recycle App",
+    "description": "Electronic waste recycling app enabling users to schedule pickups and track disposal progress."
+  },
+  "https://github.com/davies-dev404/solar_impact": {
+    "image": "/assets/solar.png",
+    "stack": ["React", "Node.js", "Express", "MongoDB"],
+    "featured": true,
+    "title": "Solar Impact",
+    "description": "Solar energy monitoring dashboard with device tracking, energy analytics, and reporting."
+  },
+  "https://github.com/davies-dev404/Law-Firm": {
+    "image": "/assets/law.png",
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "featured": false,
+    "title": "Law Firm Website",
+    "description": "Professional law firm website featuring service pages, booking, and contact automation."
+  },
+  "https://github.com/davies-dev404/Rica_": {
+    "image": "/assets/rica.png",
+    "stack": ["JavaScript", "HTML", "CSS"],
+    "featured": false,
+    "title": "Rica – Hotel Management App",
+    "description": "A hotel management application for booking, room service, and guest management."
+  },
+  "https://github.com/davies-dev404/Clean_Swift": {
+    "image": "/assets/clean.png",
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "featured": false,
+    "title": "Cleaning Services Website",
+    "description": "A modern cleaning services website with service listings, pricing, contact, and booking features."
+  },
+  "https://github.com/davies-dev404/liquortrack-pro-main": {
+    "image": "/assets/liqour.png",
+    "stack": ["React", "Node.js", "Express", "MongoDB"],
+    "featured": true,
+    "title": "Liquor Store MIS",
+    "description": "A complete Liquor Store Management Information System (MIS) with inventory tracking, supplier management, sales processing, reporting dashboards, and authentication."
+  }
+}

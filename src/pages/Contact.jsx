@@ -36,7 +36,7 @@ const socialLinks = [
 export default function Contact() {
   return (
     <Layout>
-      <section className="py-24 hero-gradient">
+      <section className="py-12 md:py-24 hero-gradient">
         <div className="container mx-auto px-4">
           <SectionHeading
             badge="Contact"

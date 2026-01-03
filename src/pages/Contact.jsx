@@ -29,8 +29,8 @@ const contactInfo = [
 
 const socialLinks = [
   { icon: Github, href: "https://github.com/davies-dev404", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com/in/daviskipsoi", label: "LinkedIn" },
-  { icon: XIcon, href: "https://twitter.com/daviskipsoi", label: "X (formerly Twitter)" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/davies-kibet-342363237?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", label: "LinkedIn" },
+  { icon: XIcon, href: "https://x.com/Quantito1", label: "X (formerly Twitter)" },
   { icon: MessageCircle, href: "https://wa.me/254790264792?text=Hello%2C%20I%20would%20like%20to%20get%20in%20touch%20with%20you", label: "WhatsApp" },
 ];
 

@@ -67,7 +67,7 @@ export function Navbar() {
                 </a>
               </Button>
               <Button variant="ghost" size="icon" asChild>
-                <a href="https://twitter.com/daviskipsoi" target="_blank" rel="noopener noreferrer">
+                <a href="https://x.com/Quantito1" target="_blank" rel="noopener noreferrer">
                   <XIcon className="h-4 w-4" />
                 </a>
               </Button>
@@ -127,7 +127,7 @@ export function Navbar() {
                   </a>
                 </Button>
                   <Button variant="ghost" size="icon" asChild>
-                    <a href="https://twitter.com/daviskipsoi" target="_blank" rel="noopener noreferrer">
+                    <a href="https://x.com/Quantito1" target="_blank" rel="noopener noreferrer">
                       <XIcon className="h-4 w-4" />
                     </a>
                   </Button>

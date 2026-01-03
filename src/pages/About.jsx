@@ -170,16 +170,15 @@ export default function About() {
             description="What keeps me inspired and balanced when I'm away from the keyboard."
           />
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Interests Grid */}
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
               {[
-                { icon: Film, label: "Movies", desc: "Sci-Fi & Cinema" },
-                { icon: Plane, label: "Travelling", desc: "Exploring Cultures" },
+                { icon: Film, label: "Movies", desc: "Investigative,Sci-Fi & Cinema" },
+                { icon: Plane, label: "Travelling", desc: "Exploring Cultures &Foods" },
                 { icon: ChefHat, label: "Cooking", desc: "Culinary Experiments" },
-                { icon: Music, label: "Music", desc: "Afro-beats & Jazz" },
+                { icon: Music, label: "Music", desc: " R&B,Afro-beats & Jazz" },
                 { icon: Book, label: "Reading", desc: "Books & Blogs" },
-                { icon: Gamepad2, label: "Gaming", desc: "Strategy Games" },
+                { icon: Gamepad2, label: "Gaming", desc: "PC & Mobile Games" },
               ].map((item, index) => (
                 <motion.div
                   key={item.label}
@@ -188,7 +187,7 @@ export default function About() {
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1 }}
                   whileHover={{ scale: 1.05, backgroundColor: "hsl(var(--primary) / 0.05)" }}
-                  className="p-4 rounded-xl border border-border bg-background/50 hover:border-primary/50 transition-colors"
+                  className="p-6 rounded-xl border border-border bg-background/50 hover:border-primary/50 transition-colors"
                 >
                   <item.icon className="h-8 w-8 text-primary mb-3" />
                   <h4 className="font-semibold text-foreground">{item.label}</h4>
@@ -196,27 +195,6 @@ export default function About() {
                 </motion.div>
               ))}
             </div>
-
-            {/* Collage Image */}
-            <motion.div
-              initial={{ opacity: 0, x: 50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8 }}
-              className="relative"
-            >
-              <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl skew-y-3 hover:skew-y-0 transition-transform duration-500">
-                <img 
-                  src="/assets/interests-collage.png" 
-                  alt="Interests Collage" 
-                  className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              {/* Decorative elements */}
-              <div className="absolute -top-10 -right-10 w-40 h-40 bg-primary/20 rounded-full blur-3xl" />
-              <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-accent/20 rounded-full blur-3xl" />
-            </motion.div>
-          </div>
         </div>
       </section>
     </Layout>

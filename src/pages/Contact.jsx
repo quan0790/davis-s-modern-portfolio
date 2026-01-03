@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, MessageCircle } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin, MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { XIcon } from "@/components/XIcon";
 import { Layout } from "@/components/Layout";
 import { SectionHeading } from "@/components/SectionHeading";
 import { ContactForm } from "@/components/ContactForm";
@@ -29,7 +30,7 @@ const contactInfo = [
 const socialLinks = [
   { icon: Github, href: "https://github.com/davies-dev404", label: "GitHub" },
   { icon: Linkedin, href: "https://linkedin.com/in/daviskipsoi", label: "LinkedIn" },
-  { icon: Twitter, href: "https://twitter.com/daviskipsoi", label: "Twitter" },
+  { icon: XIcon, href: "https://twitter.com/daviskipsoi", label: "X (formerly Twitter)" },
   { icon: MessageCircle, href: "https://wa.me/254790264792?text=Hello%2C%20I%20would%20like%20to%20get%20in%20touch%20with%20you", label: "WhatsApp" },
 ];
 

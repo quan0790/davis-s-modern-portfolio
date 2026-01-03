@@ -360,18 +360,6 @@ export const projects = [
   },
   {
     "id": 29,
-    "title": "OOP Assignment .PLP",
-    "description": "No description available.",
-    "image": "/assets/placeholder-project.png",
-    "stack": [
-      "Python"
-    ],
-    "github": "https://github.com/davies-dev404/OOP-Assignment-.PLP",
-    "demo": "",
-    "featured": false
-  },
-  {
-    "id": 30,
     "title": "File Handling And Exception Handling Assignment",
     "description": "No description available.",
     "image": "/assets/placeholder-project.png",
@@ -383,7 +371,7 @@ export const projects = [
     "featured": false
   },
   {
-    "id": 31,
+    "id": 30,
     "title": "Calculate Discount",
     "description": "No description available.",
     "image": "/assets/placeholder-project.png",
@@ -395,7 +383,7 @@ export const projects = [
     "featured": false
   },
   {
-    "id": 32,
+    "id": 31,
     "title": "List Operations.Py",
     "description": "No description available.",
     "image": "/assets/placeholder-project.png",
@@ -407,7 +395,7 @@ export const projects = [
     "featured": false
   },
   {
-    "id": 33,
+    "id": 32,
     "title": "Davis Portfolio",
     "description": "No description available.",
     "image": "/assets/placeholder-project.png",
@@ -419,7 +407,7 @@ export const projects = [
     "featured": false
   },
   {
-    "id": 34,
+    "id": 33,
     "title": "Basic Calculator Program ",
     "description": "No description available.",
     "image": "/assets/placeholder-project.png",
@@ -431,7 +419,7 @@ export const projects = [
     "featured": false
   },
   {
-    "id": 35,
+    "id": 34,
     "title": "Photography2",
     "description": "No description available.",
     "image": "/assets/placeholder-project.png",
@@ -443,7 +431,7 @@ export const projects = [
     "featured": false
   },
   {
-    "id": 36,
+    "id": 35,
     "title": "Photography",
     "description": "No description available.",
     "image": "/assets/placeholder-project.png",
@@ -455,7 +443,7 @@ export const projects = [
     "featured": false
   },
   {
-    "id": 37,
+    "id": 36,
     "title": "Thrift",
     "description": "No description available.",
     "image": "/assets/placeholder-project.png",
@@ -467,7 +455,7 @@ export const projects = [
     "featured": false
   },
   {
-    "id": 38,
+    "id": 37,
     "title": "Quan0790",
     "description": "Config files for my GitHub profile.",
     "image": "/assets/placeholder-project.png",

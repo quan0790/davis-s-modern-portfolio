@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Sun, Moon, Github, Linkedin, Twitter } from "lucide-react";
+import { Menu, X, Sun, Moon, Github, Linkedin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useTheme } from "@/hooks/useTheme";
 import { cn } from "@/lib/utils";
+import { XIcon } from "./XIcon";
 
 const navLinks = [
   { path: "/", label: "Home" },
@@ -119,11 +120,11 @@ export function Navbar() {
                     <Linkedin className="h-4 w-4" />
                   </a>
                 </Button>
-                <Button variant="ghost" size="icon" asChild>
-                  <a href="https://twitter.com/daviskipsoi" target="_blank" rel="noopener noreferrer">
-                    <Twitter className="h-4 w-4" />
-                  </a>
-                </Button>
+                  <Button variant="ghost" size="icon" asChild>
+                    <a href="https://twitter.com/daviskipsoi" target="_blank" rel="noopener noreferrer">
+                      <XIcon className="h-4 w-4" />
+                    </a>
+                  </Button>
               </div>
             </div>
           </motion.div>

@@ -37,7 +37,18 @@ async function fetchProjects() {
     console.log(`Found ${repos.length} repositories.`);
 
     const projects = repos
-      .filter(repo => !repo.fork) // Filter out forks unless you want them
+      .filter(repo => {
+        if (repo.fork) return false;
+        
+        // Filter out PLP projects
+        const lowerName = repo.name.toLowerCase();
+        const lowerDesc = (repo.description || "").toLowerCase();
+        if (lowerName.includes('plp') || lowerDesc.includes('plp')) {
+          return false;
+        }
+        
+        return true;
+      })
       .map((repo, index) => {
         const configData = config[repo.html_url] || config[repo.html_url.replace(/\/$/, "")];
         

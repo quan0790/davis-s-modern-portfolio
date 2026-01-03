@@ -35,7 +35,12 @@ export function Footer() {
             <div className="flex items-center gap-2">
               {socialLinks.map((link) => (
                 <Button key={link.label} variant="ghost" size="icon" asChild>
-                  <a href={link.href} target="_blank" rel="noopener noreferrer" aria-label={link.label}>
+                  <a 
+                    href={link.href} 
+                    target={link.href.startsWith("mailto") ? undefined : "_blank"} 
+                    rel={link.href.startsWith("mailto") ? undefined : "noopener noreferrer"} 
+                    aria-label={link.label}
+                  >
                     <link.icon className="h-4 w-4" />
                   </a>
                 </Button>

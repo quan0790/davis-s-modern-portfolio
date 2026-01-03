@@ -32,6 +32,7 @@ export function Navbar() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
             <img src="/assets/logo.png" alt="Davies.dev" className="h-10 w-auto object-contain" />
+            <span className="font-display font-bold text-lg tracking-tight hidden sm:block">&lt;Davies.dev/&gt;</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -63,6 +64,11 @@ export function Navbar() {
               <Button variant="ghost" size="icon" asChild>
                 <a href="https://www.linkedin.com/in/davies-kibet-342363237?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-4 w-4" />
+                </a>
+              </Button>
+              <Button variant="ghost" size="icon" asChild>
+                <a href="https://twitter.com/daviskipsoi" target="_blank" rel="noopener noreferrer">
+                  <XIcon className="h-4 w-4" />
                 </a>
               </Button>
             </div>

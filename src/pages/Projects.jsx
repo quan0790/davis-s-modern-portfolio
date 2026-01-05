@@ -24,6 +24,7 @@ export default function Projects() {
             badge="Portfolio"
             title="My Projects"
             description="Explore my recent work and see how I bring ideas to life through code."
+            align="center"
           />
 
           {/* Filter */}

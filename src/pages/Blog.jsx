@@ -13,6 +13,7 @@ export default function Blog() {
             badge="Blog"
             title="Articles & Insights"
             description="Thoughts on software development, best practices, and the latest technologies."
+            align="center"
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">

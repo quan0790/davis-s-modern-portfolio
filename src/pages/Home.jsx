@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Link } from "react-router-dom";
-import { ArrowRight, Download, ChevronDown, Code, Server, Smartphone } from "lucide-react";
+import { ArrowRight, Download, ChevronDown, Code, Server, Smartphone, Phone, Mail } from "lucide-react";
 import { useRef } from "react";
 import { Button } from "@/components/ui/button";
 import { Layout } from "@/components/Layout";
@@ -24,7 +24,7 @@ export default function Home() {
   const heroOpacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);
 
   // ✅ PDF file path from public folder
-  const cvFile = "/assets/DAVIS_KIBET_RESUME_updated.pdf";
+  const cvFile = "/assets/DAVIS%20KIBET%20KIPSOI%20cv%20%20full%20stack.pdf";
 
   return (
     <Layout>
@@ -210,8 +210,9 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <SectionHeading
             badge="Services"
-            title="What I Do"
-            description="Professional software engineering services to help you build and scale digital products."
+            title="What I Offer"
+            description="Comprehensive software engineering services tailored to your needs."
+            align="center"
           />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {featuredServices.map((service, index) => (
@@ -269,7 +270,7 @@ export default function Home() {
             </motion.p>
 
             <motion.div 
-              className="flex flex-col sm:flex-row items-center justify-center gap-4"
+              className="flex flex-col sm:flex-row flex-wrap items-center justify-center gap-4"
             >
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 <Button variant="hero" size="lg" asChild className="btn-magnetic">
@@ -285,6 +286,24 @@ export default function Home() {
                     rel="noopener noreferrer"
                   >
                     WhatsApp Me
+                  </a>
+                </Button>
+              </motion.div>
+
+              <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                <Button variant="outline" size="lg" asChild className="btn-magnetic">
+                  <a href="tel:+254790264792">
+                    <Phone className="mr-2 h-4 w-4" />
+                    Call Me
+                  </a>
+                </Button>
+              </motion.div>
+
+              <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
+                <Button variant="outline" size="lg" asChild className="btn-magnetic">
+                  <a href="mailto:kipsoikibet2@gmail.com">
+                    <Mail className="mr-2 h-4 w-4" />
+                    Email Me
                   </a>
                 </Button>
               </motion.div>

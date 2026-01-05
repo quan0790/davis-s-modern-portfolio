@@ -1,55 +1,77 @@
-# Davis Kibet Portfolio
+# Hi, I’m Davis Kibet 👋
 
-Welcome to the personal portfolio of **Davis Kibet Kipsoi**, a passionate software engineer and full-stack developer. This portfolio showcases projects, skills, and professional journey.
+### Full-Stack Developer (MERN Stack)
+
+I build modern, responsive, and scalable web applications using React, Node.js, Express, and MongoDB.
+I enjoy solving real-world problems through clean code, intuitive user interfaces, and reliable backend systems.
+
+🔹 Frontend & Backend Development  
+🔹 API Integration & Databases  
+🔹 Clean UI, Performance & Security
 
 ---
 
 ## 🚀 About Me
 
-- **Name:** Davis Kibet Kipsoi
-- **Location:** Nairobi, Kenya
-- **Education:** BSc Information Science, Mount Kenya University
-- **Alumnus:** Power Learn Project
-- **Skills:** Web & Mobile Development, UI/UX Design, Cloud, DevOps, and more
-- **Profile:** Self-taught developer with a passion for building scalable and efficient solutions
+I am a passionate Full-Stack Developer with a strong foundation in MERN stack development and real-world experience supporting digital systems in structured environments.
+
+I have worked on building web applications, integrating APIs, managing databases, and deploying projects. My background in ICT support and data systems has strengthened my problem-solving, debugging, and analytical skills, allowing me to build applications that are not only functional but also reliable and secure.
+
+I enjoy working in collaborative teams, learning new technologies, and continuously improving my skills to deliver high-quality digital solutions.
 
 ---
 
-## 🛠 Technologies & Tools
+## 🛠 Skills
 
-- **Frontend:** React, Next.js, Vue.js, TypeScript, TailwindCSS
-- **DevOps / Cloud:** Docker, AWS, Linux
-- **Others:** Git & GitHub,
+**Frontend**
+
+- React.js
+- JavaScript (ES6+)
+- HTML5, CSS3, Tailwind CSS
+- Responsive & Mobile-First Design
+
+**Backend**
+
+- Node.js, Express.js
+- RESTful APIs
+- Authentication (JWT basics)
+
+**Databases**
+
+- MongoDB
+- MySQL / SQL
+
+**Tools & Deployment**
+
+- Git & GitHub
+- Postman
+- Vercel
+- WordPress & Wix
 
 ---
 
 ## 💻 Projects
 
-Here are some of the projects featured in this portfolio:
+### Personal Developer Portfolio
 
-- **My Profile Portfolio**  
-  Rental management platform for properties, tenants, invoices, and digital payments.  
-  Stack: React, Node.js, Express, MongoDB  
-  [GitHub Repository](https://github.com/davies-dev404/The_Residence_)
+- 🔗 **Live Demo:** [https://davis-s-modern-portfolio-frmw.vercel.app/](https://davis-s-modern-portfolio-frmw.vercel.app/)
+- 💻 **GitHub:** Available on request
 
-- Other projects include e-commerce platforms, solar management systems, and more (details inside the portfolio).
+**Description:**
+A modern and responsive personal portfolio built with React to showcase my projects, skills, and professional background.
+
+**Key Features:**
+
+- Clean and modern UI design
+- Fully responsive across devices
+- Optimized performance and fast loading
+- Deployed on Vercel
+
+**Technologies Used:**
+
+- React.js, JavaScript, HTML, CSS, Vercel
 
 ---
-
-## 📄 Download CV
-
-You can download my CV here:
-
-[Download CV](src/assets/DAVIS_KIBET_RESUME_updated.pdf)
-
----
-
-## 📫 Contact
-
-- **Email:** kipsoikibet2@gmail.com
-- **Phone:** +254790264792
-- **GitHub:** [https://github.com/davies-dev404](https://github.com/davies-dev404)
-- ***
 
 ## ⚡ Features
 
@@ -65,21 +87,41 @@ You can download my CV here:
 ## 📦 Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/davies-dev404/davis-s-modern-portfolio.git
-   Navigate to the project directory:
    ```
 
-bash
-Copy code
-cd davis-s-modern-portfolio-main
-Install dependencies:
+2. Navigate to the project directory:
 
-bash
-Copy code
-npm install
-Run the development server:
+   ```bash
+   cd davis-s-modern-portfolio-main
+   ```
 
-Copy code
-npm run dev
-Open http://localhost:5173 to view it in the browser.
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+
+---
+
+## 📄 Download CV
+
+[Download CV](public/assets/DAVIS%20KIBET%20KIPSOI%20cv%20%20full%20stack.pdf)
+
+---
+
+## 📫 Contact
+
+- **Email:** kipsoikibet2@gmail.com
+- **Phone:** +254790264792
+- **GitHub:** [https://github.com/davies-dev404](https://github.com/davies-dev404)

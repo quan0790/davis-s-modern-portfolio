@@ -43,7 +43,27 @@ async function fetchProjects() {
         // Filter out PLP projects
         const lowerName = repo.name.toLowerCase();
         const lowerDesc = (repo.description || "").toLowerCase();
-        if (lowerName.includes('plp') || lowerDesc.includes('plp')) {
+        if (lowerName.includes('plp') || lowerDesc.includes('plp') || 
+            lowerName.includes('pandas') || lowerDesc.includes('pandas') ||
+            lowerName.includes('python') || lowerDesc.includes('python') ||
+            lowerName.includes('class work') || lowerDesc.includes('class work') ||
+            lowerName.includes('assignment') || lowerDesc.includes('assignment') ||
+            lowerName.includes('calculator') || lowerDesc.includes('calculator') ||
+            lowerName.includes('foodshare') || 
+            lowerName.includes('fit core') || 
+            lowerName.includes('fit_core') || 
+            lowerName.includes('cleaning') || 
+            lowerName.includes('clean') || 
+            lowerName.includes('greenstream') || 
+            lowerName.includes('database') || 
+            lowerName.includes('jirani-eats') || 
+            lowerName.includes('shinny') || 
+            lowerName.includes('shiny') || 
+            lowerName.includes('photography') || 
+            lowerName.includes('thrift') || 
+            lowerName.includes('quan0790') || 
+            (lowerName === 'davis-portfolio') || 
+            (repo.language && repo.language.toLowerCase() === 'python')) {
           return false;
         }
         
@@ -59,7 +79,7 @@ async function fetchProjects() {
         const image = configData?.image || "/assets/placeholder-project.png"; // Fallback image
         const stack = configData?.stack || [repo.language || "code"];
         const github = repo.html_url;
-        const demo = repo.homepage || configData?.demo || "";
+        const demo = configData?.demo || repo.homepage || "";
         const featured = configData?.featured || false;
 
         return {
@@ -75,6 +95,13 @@ async function fetchProjects() {
       })
       // Sort: Featured first, then by updated date (which is already roughly the order from API, but let's be sure)
       .sort((a, b) => (b.featured === a.featured ? 0 : b.featured ? 1 : -1));
+
+    // Manual additions
+    // Manual additions removed (handled via config)
+
+
+    // Re-assign IDs
+    projects.forEach((p, i) => p.id = i + 1);
 
     // Generate JS content
     const fileContent = `

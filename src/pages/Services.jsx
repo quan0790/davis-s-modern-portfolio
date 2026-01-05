@@ -40,6 +40,7 @@ export default function Services() {
             badge="Services"
             title="What I Offer"
             description="Comprehensive software engineering services tailored to your needs."
+            align="center"
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

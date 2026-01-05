@@ -43,6 +43,7 @@ export default function Contact() {
             badge="Contact"
             title="Get in Touch"
             description="Have a project in mind? Let's talk about how I can help."
+            align="center"
           />
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">

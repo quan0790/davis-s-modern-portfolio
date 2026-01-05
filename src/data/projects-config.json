@@ -1,10 +1,19 @@
 {
+  "https://github.com/davies-dev404/legal-motion-studio": {
+    "image": "/assets/sterling-law.png",
+    "stack": ["React", "Tailwind CSS", "Framer Motion"],
+    "featured": true,
+    "title": "Sterling Law",
+    "description": "Premium legal practice website built with React and Tailwind CSS. A demo website for a high-end law firm featuring modern design and smooth animations.",
+    "demo": "https://legal-motion-studio.vercel.app/"
+  },
   "https://github.com/davies-dev404/crotchet-atelier-online-main": {
     "image": "/assets/ecom.png",
     "stack": ["React", "Node.js", "Stripe"],
     "featured": true,
     "title": "E-Commerce Platform",
-    "description": "A full-stack e-commerce solution with real-time inventory, payment processing, and admin dashboard."
+    "description": "A full-stack e-commerce solution with real-time inventory, payment processing, and admin dashboard.",
+    "demo": "https://tourmaline-phoenix-9d7f4e.netlify.app/"
   },
   "https://github.com/davies-dev404/Jirani_Eats": {
     "image": "/assets/Jirani.png",
@@ -13,12 +22,53 @@
     "title": "FoodShare App",
     "description": "A community donation app helping users share excess food with nearby recipients and organizations."
   },
-  "https://github.com/davies-dev404/rent_manager": {
-    "image": "/assets/rental man.png",
+  "https://github.com/davies-dev404/rental-manager": {
+    "image": "/assets/rental-manager.png",
     "stack": ["React", "Node.js", "Express", "MongoDB"],
-    "featured": false,
-    "title": "Dwellio– Rental Management System",
-    "description": "Rental management platform for properties, tenants, invoices, and digital payments."
+    "featured": true,
+    "title": "Dwellio – Rental Management System",
+    "description": "Rental management platform for properties, tenants, invoices, and digital payments.",
+    "demo": "https://rental-manager-seven.vercel.app/"
+  },
+  "https://github.com/davies-dev404/JengaWeb": {
+    "image": "/assets/jengaweb.png",
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "featured": true,
+    "title": "JengaWeb",
+    "description": "A digital showcase platform highlighting web development services and custom design solutions.",
+    "demo": "https://davies-dev404.github.io/JengaWeb/"
+  },
+  "https://github.com/davies-dev404/Eco--Track": {
+    "image": "/assets/eco-track-v2.png",
+    "stack": ["React", "Node.js", "Express", "MongoDB"],
+    "featured": true,
+    "title": "EcoTrack",
+    "description": "Waste management platform for a greener future. Track recycling impact, schedule pickups, and join a sustainable community.",
+    "demo": "https://eco-track-3sic.vercel.app/"
+  },
+  "https://github.com/davies-dev404/velvet-motion": {
+    "image": "/assets/velvet-motion.png",
+    "stack": ["React", "Framer Motion", "Tailwind CSS"],
+    "featured": true,
+    "title": "Velvet Motion - Noir",
+    "description": "A coffee shop experience featuring fluid animations and dark mode aesthetics. Every cup tells a story.",
+    "demo": "https://velvet-motion-5fsx.vercel.app/"
+  },
+  "https://github.com/davies-dev404/Law-Firm_": {
+    "image": "/assets/law-firm.png",
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "featured": true,
+    "title": "Kibet & Associates Advocates",
+    "description": "Professional law firm website featuring service pages, booking, and contact automation.",
+    "demo": "https://davies-dev404.github.io/Law-Firm_/"
+  },
+  "https://github.com/davies-dev404/fruit_juice": {
+    "image": "/assets/juice-bar.png",
+    "stack": ["Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    "featured": true,
+    "title": "JuiceBar",
+    "description": "A modern full-stack web application for managing juice orders.",
+    "demo": ""
   },
   "https://github.com/davies-dev404/davis-s-modern-portfolio": {
     "image": "/assets/portfolio.png",
@@ -32,7 +82,8 @@
     "stack": ["React", "Node.js", "Express", "MongoDB"],
     "featured": true,
     "title": "Gulfstream – E-Recycle App",
-    "description": "Electronic waste recycling app enabling users to schedule pickups and track disposal progress."
+    "description": "Electronic waste recycling app enabling users to schedule pickups and track disposal progress.",
+    "demo": "https://gulfstream-recycle.vercel.app"
   },
   "https://github.com/davies-dev404/solar_impact": {
     "image": "/assets/solar.png",

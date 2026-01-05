@@ -26,8 +26,9 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div className="space-y-4">
-            <Link to="/" className="flex items-center gap-2">
-              <img src="/assets/logo.png" alt="Davies.dev" className="h-12 w-auto object-contain" />
+            <Link to="/" className="flex items-center gap-3">
+              <img src="/assets/logo.png" alt="Davies.dev" className="h-10 w-auto object-contain" />
+              <span className="font-display text-xl font-bold tracking-tight">&lt;Davies.dev/&gt;</span>
             </Link>
             <p className="text-muted-foreground text-sm max-w-xs">
               Building digital experiences with clean code and modern technologies.

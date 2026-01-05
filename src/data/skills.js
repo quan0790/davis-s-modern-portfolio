@@ -1,30 +1,39 @@
 
-
 export const skills = [
-  { name: "React / Next.js", level: 95, category: "frontend" },
-   { name: "JavaScript", level: 90, category: "frontend" },
-  { name: "TypeScript", level: 90, category: "frontend" },
-  { name: "TailwindCSS", level: 92, category: "frontend" },
-  { name: "Node.js", level: 90, category: "backend" },
-  { name: "Express.js", level: 90, category: "backend" },
-  { name: "Python", level: 88, category: "backend" },
-  { name: "MySQL", level: 85, category: "backend" },
-  { name: "MongoDB", level: 82, category: "backend" },
-  { name: "Git & GitHub", level: 92, category: "other" },
- 
+  // Frontend
+  { name: "React.js", level: 95, category: "Frontend" },
+  { name: "JavaScript (ES6+)", level: 90, category: "Frontend" },
+  { name: "HTML5, CSS3", level: 95, category: "Frontend" },
+  { name: "Tailwind CSS", level: 92, category: "Frontend" },
+  { name: "Responsive Design", level: 90, category: "Frontend" },
+  
+  // Backend
+  { name: "Node.js", level: 88, category: "Backend" },
+  { name: "Express.js", level: 88, category: "Backend" },
+  { name: "RESTful APIs", level: 90, category: "Backend" },
+  { name: "JWT Auth", level: 85, category: "Backend" },
+
+  // Databases
+  { name: "MongoDB", level: 85, category: "Databases" },
+  { name: "MySQL / SQL", level: 80, category: "Databases" },
+
+  // Tools
+  { name: "Git & GitHub", level: 90, category: "Tools" },
+  { name: "Postman", level: 85, category: "Tools" },
+  { name: "Vercel", level: 88, category: "Tools" },
+  { name: "Render", level: 85, category: "Tools" },
+  { name: "WordPress & Wix", level: 80, category: "Tools" },
 ];
 
 export const techStack = [
   "React",
-  "Next.js",
+  "Node.js",
+  "Express",
+  "MongoDB",
+  "Tailwind CSS",
   "JavaScript",
   "TypeScript",
-  "Node.js",
-  "Python",
-  "MySQL",
-  "MongoDB",
-  "Express.js",
-  "TailwindCSS",
-  "Git & GitHub",
-
+  "Next.js",
+  "Git",
+  "SQL"
 ];

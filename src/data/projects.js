@@ -179,6 +179,18 @@ export const projects = [
   },
   {
     "id": 13,
+    "title": "Community Care Portal",
+    "description": "No description available.",
+    "image": "/assets/placeholder-project.png",
+    "stack": [
+      "JavaScript"
+    ],
+    "github": "https://github.com/davies-dev404/community-care-portal",
+    "demo": "https://community-care-portal.vercel.app",
+    "featured": false
+  },
+  {
+    "id": 14,
     "title": "My Personal Portfolio",
     "description": "A personal portfolio website showcasing my projects, skills, and professional experience.",
     "image": "/assets/portfolio.png",
@@ -192,7 +204,7 @@ export const projects = [
     "featured": false
   },
   {
-    "id": 14,
+    "id": 15,
     "title": "Rica – Hotel Management App",
     "description": "A hotel management application for booking, room service, and guest management.",
     "image": "/assets/rica.png",

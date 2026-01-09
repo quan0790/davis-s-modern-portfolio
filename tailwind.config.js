@@ -17,8 +17,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ["DM Sans", "system-ui", "sans-serif"],
-        display: ["JetBrains Mono", "monospace"],
+        sans: ["Roboto", "system-ui", "sans-serif"],
+        display: ["Bebas Neue", "sans-serif"],
+        serif: ["Bitter", "serif"],
         mono: ["JetBrains Mono", "monospace"],
       },
       colors: {
@@ -55,6 +56,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        "stax-dark": "hsl(var(--stax-dark))",
+        "stax-light": "hsl(var(--stax-light))",
+        "stax-accent": "hsl(var(--stax-accent))",
+        "stax-gray": "hsl(var(--stax-gray))",
+        "stax-black": "hsl(var(--stax-black))",
+        "stax-dark-gray": "hsl(var(--stax-dark-gray))",
+        "stax-medium-gray": "hsl(var(--stax-medium-gray))",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -95,6 +103,10 @@ export default {
         "scale-in": "scale-in 0.3s ease-out",
         shimmer: "shimmer 2s linear infinite",
       },
+      maxWidth: {
+        'content': '960px',
+        'wide': '1366px',
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],

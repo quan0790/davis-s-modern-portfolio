@@ -1,87 +1,89 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 @layer base {
   :root {
-    --background: 210 20% 98%;
-    --foreground: 220 20% 10%;
+    /* STAX Theme Colors */
+    --stax-white: 0 0% 100%;
+    --stax-black: 0 0% 0%;
+    --stax-dark-gray: 189 6% 24%; /* #383f40 approx */
+    --stax-medium-gray: 210 5% 42%; /* #656d6f approx */
+    --stax-light-gray: 0 0% 87%; /* #dddddd approx */
+    --stax-accent: 169 54% 48%; /* #38bda6 */
+    --stax-accent-secondary: 174 34% 88%; /* #D9E9E7 */
+    --stax-bg-dark: 221 18% 35%; /* #495369 */
+    --stax-bg-light: 180 20% 97%; /* #F5FAFA */
 
-    --card: 0 0% 100%;
-    --card-foreground: 220 20% 10%;
+    /* Mapping to Shadcn variables */
+    --background: var(--stax-white);
+    --foreground: 210 5% 42%; /* medium gray */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 20% 10%;
+    --card: var(--stax-white);
+    --card-foreground: 210 5% 42%;
 
-    --primary: 175 80% 40%;
-    --primary-foreground: 0 0% 100%;
+    --popover: var(--stax-white);
+    --popover-foreground: 210 5% 42%;
 
-    --secondary: 210 15% 92%;
-    --secondary-foreground: 220 20% 20%;
+    --primary: var(--stax-accent);
+    --primary-foreground: var(--stax-white);
 
-    --muted: 210 15% 95%;
-    --muted-foreground: 220 10% 45%;
+    --secondary: var(--stax-accent-secondary);
+    --secondary-foreground: 221 18% 35%;
 
-    --accent: 175 70% 45%;
-    --accent-foreground: 0 0% 100%;
+    --muted: var(--stax-bg-light);
+    --muted-foreground: 210 5% 42%;
+
+    --accent: var(--stax-accent);
+    --accent-foreground: var(--stax-white);
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 210 15% 88%;
-    --input: 210 15% 88%;
-    --ring: 175 80% 40%;
+    --border: var(--stax-light-gray);
+    --input: var(--stax-light-gray);
+    --ring: var(--stax-accent);
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
     /* Custom tokens */
-    --glass-bg: 0 0% 100% / 0.7;
-    --glass-border: 0 0% 100% / 0.2;
-    --gradient-primary: linear-gradient(135deg, hsl(175 80% 40%), hsl(190 80% 50%));
-    --gradient-accent: linear-gradient(135deg, hsl(175 70% 45%), hsl(200 70% 50%));
-    --gradient-hero: linear-gradient(180deg, hsl(210 20% 98%) 0%, hsl(210 25% 94%) 100%);
-    --shadow-glow: 0 0 40px hsl(175 80% 40% / 0.3);
-    --shadow-card: 0 4px 24px hsl(220 20% 10% / 0.08);
+    --stax-dark: 221 18% 35%;
+    --stax-light: 180 20% 97%;
+    
+    --shadow-soft: 6px 6px 18px 0 rgba(0, 0, 0, 0.1);
+    --shadow-natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
   }
 
   .dark {
-    --background: 220 25% 8%;
-    --foreground: 210 20% 98%;
+    /* STAX Theme doesn't strictly have a "dark mode" in the reference, but we map reasonable dark equivalents */
+    --background: 221 18% 25%;
+    --foreground: 0 0% 95%;
 
-    --card: 220 25% 12%;
-    --card-foreground: 210 20% 98%;
+    --card: 221 18% 30%;
+    --card-foreground: 0 0% 95%;
 
-    --popover: 220 25% 12%;
-    --popover-foreground: 210 20% 98%;
+    --popover: 221 18% 30%;
+    --popover-foreground: 0 0% 95%;
 
-    --primary: 175 80% 50%;
-    --primary-foreground: 220 25% 8%;
+    --primary: 169 54% 55%; /* Lighter accent for dark mode */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 220 20% 18%;
-    --secondary-foreground: 210 20% 90%;
+    --secondary: 221 18% 40%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 220 20% 15%;
-    --muted-foreground: 210 15% 55%;
+    --muted: 221 18% 35%;
+    --muted-foreground: 215 20% 65%;
 
-    --accent: 175 70% 55%;
-    --accent-foreground: 220 25% 8%;
+    --accent: 169 54% 55%;
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 70% 50%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 220 20% 18%;
-    --input: 220 20% 18%;
-    --ring: 175 80% 50%;
-
-    /* Custom tokens - dark */
-    --glass-bg: 220 25% 12% / 0.8;
-    --glass-border: 210 20% 98% / 0.1;
-    --gradient-primary: linear-gradient(135deg, hsl(175 80% 50%), hsl(190 80% 60%));
-    --gradient-accent: linear-gradient(135deg, hsl(175 70% 55%), hsl(200 70% 60%));
-    --gradient-hero: linear-gradient(180deg, hsl(220 25% 8%) 0%, hsl(220 30% 12%) 100%);
-    --shadow-glow: 0 0 60px hsl(175 80% 50% / 0.25);
-    --shadow-card: 0 4px 24px hsl(0 0% 0% / 0.3);
+    --border: 215 27% 20%;
+    --input: 215 27% 20%;
+    --ring: 169 54% 55%;
   }
 }
 
@@ -91,173 +93,59 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans antialiased;
+    @apply bg-background text-foreground font-sans antialiased leading-relaxed;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-display font-bold tracking-tight;
+    @apply font-display font-bold tracking-tight text-black dark:text-white transition-colors duration-300;
   }
 }
 
 @layer components {
-  .glass {
-    @apply bg-[hsl(var(--glass-bg))] backdrop-blur-xl border border-[hsl(var(--glass-border))];
+  /* STAX Block Layouts */
+  .alignfull {
+    @apply w-full relative left-[50%] right-[50%] -ml-[50vw] -mr-[50vw] max-w-[100vw];
+  }
+  
+  .alignwide {
+    @apply w-full max-w-wide mx-auto px-4 sm:px-6;
   }
 
-  .gradient-text {
-    @apply bg-clip-text text-transparent;
-    background-image: var(--gradient-primary);
+  .aligncontent {
+    @apply w-full max-w-content mx-auto px-4 sm:px-6;
+  }
+  
+  .wp-block-button__link {
+    @apply inline-block px-6 py-3 rounded-full text-white bg-primary hover:bg-black dark:hover:bg-white dark:hover:text-black transition-colors duration-300 font-sans font-medium uppercase tracking-wider text-sm no-underline;
   }
 
-  .gradient-bg {
-    background-image: var(--gradient-primary);
+  .wp-block-button.is-style-outline .wp-block-button__link {
+    @apply bg-transparent border-2 border-current text-gray-500 hover:text-black dark:text-gray-400 dark:hover:text-white hover:bg-transparent;
   }
 
-  .glow {
-    box-shadow: var(--shadow-glow);
-  }
-
-  .card-shadow {
-    box-shadow: var(--shadow-card);
-  }
-
-  .hero-gradient {
-    background-image: var(--gradient-hero);
+  .organic-block {
+    @apply border-[3px] border-stax-accent rounded-xl bg-white dark:bg-stax-black dark:border-primary/50 p-8 transition-colors duration-300;
   }
 }
 
 @layer utilities {
-  .animate-float {
-    animation: float 6s ease-in-out infinite;
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-  .animate-pulse-slow {
-    animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  .gradient-bg {
+    background: linear-gradient(135deg, hsl(var(--stax-accent)), #2a8f7b);
+  }
+  
+  .glow {
+    box-shadow: 0 0 20px -5px hsl(var(--stax-accent) / 0.5);
   }
 
-  .animate-shimmer {
-    animation: shimmer 2s linear infinite;
+  .hero-gradient {
+    background: linear-gradient(to bottom, var(--stax-light), white);
   }
-
-  .animate-glow-pulse {
-    animation: glow-pulse 2s ease-in-out infinite;
-  }
-
-  .animate-bounce-subtle {
-    animation: bounce-subtle 2s ease-in-out infinite;
-  }
-
-  @keyframes float {
-    0%, 100% {
-      transform: translateY(0px);
-    }
-    50% {
-      transform: translateY(-20px);
-    }
-  }
-
-  @keyframes shimmer {
-    0% {
-      background-position: -200% 0;
-    }
-    100% {
-      background-position: 200% 0;
-    }
-  }
-
-  @keyframes glow-pulse {
-    0%, 100% {
-      box-shadow: 0 0 20px hsl(var(--primary) / 0.3);
-    }
-    50% {
-      box-shadow: 0 0 40px hsl(var(--primary) / 0.6);
-    }
-  }
-
-  @keyframes bounce-subtle {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-5px);
-    }
-  }
-}
-
-/* Scroll-triggered animation helpers */
-.reveal {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.reveal.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Parallax container */
-.parallax-container {
-  perspective: 1000px;
-  overflow: hidden;
-}
-
-/* Interactive button effects */
-.btn-magnetic {
-  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.btn-magnetic:hover {
-  transform: scale(1.05);
-}
-
-.btn-magnetic:active {
-  transform: scale(0.98);
-}
-
-/* Card tilt effect on hover */
-.card-tilt {
-  transition: transform 0.3s ease;
-  transform-style: preserve-3d;
-}
-
-.card-tilt:hover {
-  transform: perspective(1000px) rotateX(2deg) rotateY(-2deg) translateZ(10px);
-}
-
-/* Underline animation for links */
-.link-underline {
-  position: relative;
-}
-
-.link-underline::after {
-  content: '';
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: -2px;
-  left: 0;
-  background: hsl(var(--primary));
-  transition: width 0.3s ease;
-}
-
-.link-underline:hover::after {
-  width: 100%;
-}
-
-/* Stagger animation for lists */
-.stagger-item {
-  opacity: 0;
-  animation: stagger-in 0.5s ease forwards;
-}
-
-@keyframes stagger-in {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+    
+  .dark .hero-gradient {
+    background: linear-gradient(to bottom, var(--stax-bg-dark), var(--stax-black));
   }
 }

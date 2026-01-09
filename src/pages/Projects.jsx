@@ -6,7 +6,7 @@ import { ProjectCard } from "@/components/ProjectCard";
 import { projects } from "@/data/projects";
 import { cn } from "@/lib/utils";
 
-const categories = ["All", "React", "Node.js", "HTML", "CSS", "JavaScript"];
+const categories = ["All", "Full Stack", "Backend", "Frontend"];
 
 export default function Projects() {
   const [activeCategory, setActiveCategory] = useState("All");
@@ -14,7 +14,7 @@ export default function Projects() {
   const filteredProjects =
     activeCategory === "All"
       ? projects
-      : projects.filter((p) => p.stack.some((tech) => tech.toLowerCase().includes(activeCategory.toLowerCase())));
+      : projects.filter((p) => p.category === activeCategory);
 
   return (
     <Layout>
@@ -32,17 +32,17 @@ export default function Projects() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
-            className="flex flex-wrap justify-center gap-2 mb-12"
+            className="flex flex-wrap justify-center gap-4 mb-12"
           >
             {categories.map((category) => (
               <button
                 key={category}
                 onClick={() => setActiveCategory(category)}
                 className={cn(
-                  "px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300",
+                  "px-6 py-2 rounded-lg text-sm font-bold transition-all duration-300 border-2",
                   activeCategory === category
-                    ? "gradient-bg text-primary-foreground glow"
-                    : "glass text-muted-foreground hover:text-foreground"
+                    ? "bg-primary border-primary text-white shadow-md scale-105"
+                    : "bg-white border-stax-light-gray text-stax-medium-gray hover:border-primary hover:text-primary dark:bg-transparent dark:border-gray-700 dark:text-gray-400 dark:hover:text-primary dark:hover:border-primary"
                 )}
               >
                 {category}

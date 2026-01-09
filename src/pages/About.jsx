@@ -44,7 +44,7 @@ export default function About() {
                   <motion.img
                     src={profileAvatar}
                     alt="Davis Kibet Kipsoi"
-                    fetchPriority="high"
+                    fetchpriority="high"
                     className="w-full h-auto object-contain"
                     style={{ opacity }}
                     whileHover={{ scale: 1.1 }}
@@ -82,15 +82,15 @@ export default function About() {
                 </span>
               </div>
 
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-muted-foreground leading-relaxed text-justify">
                 I am a passionate Full-Stack Developer specializing in the MERN stack with a strong background in ICT support and digital systems. I build scalable, high-performance web applications by combining clean frontend design with robust backend architecture.
               </p>
 
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-muted-foreground leading-relaxed text-justify">
                 With experience in building web applications, integrating APIs, and managing databases, I focus on delivering solutions that are not only functional but also secure and reliable. My technical background has honed my problem-solving and debugging skills, ensuring I write efficient, maintainable code.
               </p>
 
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-muted-foreground leading-relaxed text-justify">
                 Beyond coding, I am an enthusiastic learner who stays up-to-date with emerging technologies. I enjoy contributing to open-source projects and collaborating with teams to turn innovative ideas into reality.
               </p>
 

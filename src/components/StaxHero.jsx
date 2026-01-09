@@ -4,7 +4,7 @@ import { ArrowRight, Download, Briefcase, Github, Linkedin, Mail } from "lucide-
 import { XIcon } from "@/components/XIcon";
 import { useRef } from "react";
 import { Button } from "@/components/ui/button";
-import heroVisual from "@/assets/hero-visual.png";
+
 
 const AnimatedText = ({ text, delay = 0 }) => {
   const letters = Array.from(text);
@@ -92,7 +92,7 @@ export function StaxHero() {
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 md:px-8 py-20">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             {/* Text Content */}
-            <div className="order-2 lg:order-1">
+            <div className="order-1 lg:order-1">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -186,22 +186,72 @@ export function StaxHero() {
               </motion.div>
             </div>
             
-            {/* Visual Element */}
-            <div className="order-1 lg:order-2 relative hidden lg:block perspective-1000">
+            {/* Visual Element - Code Window */}
+            <div className="order-2 lg:order-2 relative hidden md:block perspective-1000 mx-auto lg:mx-0">
                <motion.div
                  initial={{ opacity: 0, x: 50 }}
                  animate={{ opacity: 1, x: 0 }}
                  transition={{ duration: 0.8, delay: 0.5 }}
                  className="relative"
                >
-                <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl border-4 border-stax-dark-gray/20 dark:border-white/10 group transform hover:scale-[1.02] transition-transform duration-500">
-                    <img 
-                        src={heroVisual} 
-                        alt="Portfolio Preview" 
-                        className="w-full h-auto object-cover"
-                    />
-                </div>
-               </motion.div>
+              <div className="relative">
+                <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-primary/10 rounded-3xl blur-2xl" />
+                <motion.div 
+                  className="relative w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-3xl bg-card/80 backdrop-blur-lg border border-border/50 p-6 overflow-hidden"
+                  whileHover={{ scale: 1.02, rotateY: 10, rotateX: -5 }}
+                  animate={{ y: [0, -15, 0] }}
+                  transition={{ 
+                    y: { repeat: Infinity, duration: 6, ease: "easeInOut" },
+                    default: { type: "spring", stiffness: 300 }
+                  }}
+                >
+                  <div className="absolute top-4 left-4 flex items-center gap-2">
+                    <div className="w-3 h-3 rounded-full bg-red-500" />
+                    <div className="w-3 h-3 rounded-full bg-yellow-500" />
+                    <div className="w-3 h-3 rounded-full bg-green-500" />
+                  </div>
+                  <div className="mt-8 font-mono text-sm">
+                    <div className="text-muted-foreground mb-2">
+                      <span className="text-primary">const</span> developer ={" "}
+                      {"{"}
+                    </div>
+                    <div className="pl-4 text-muted-foreground">
+                      <span className="text-green-500">name</span>:{" "}
+                      <span className="text-yellow-500">'Davis Kipsoi'</span>,
+                    </div>
+                    <div className="pl-4 text-muted-foreground">
+                      <span className="text-green-500">role</span>:{" "}
+                      <span className="text-yellow-500">'Full-Stack Dev'</span>,
+                    </div>
+                    <div className="pl-4 text-muted-foreground">
+                      <span className="text-green-500">skills</span>: [
+                    </div>
+                    <div className="pl-8 text-muted-foreground">
+                      <span className="text-yellow-500">'React'</span>,{" "}
+                      <span className="text-yellow-500">'Node.js'</span>,
+                    </div>
+                    <div className="pl-8 text-muted-foreground">
+                      <span className="text-yellow-500">'JavaScript'</span>,
+                    </div>           
+                    <div className="pl-8 text-muted-foreground">
+                      <span className="text-yellow-500">'TypeScript'</span>,
+                    </div>
+                    <div className="pl-8 text-muted-foreground">
+                      <span className="text-yellow-500">'Python'</span>
+                    </div>
+                    <div className="pl-4 text-muted-foreground">],</div>
+                    <div className="pl-4 text-muted-foreground">
+                      <span className="text-green-500">passion</span>:{" "}
+                      <span className="text-primary">true</span>
+                    </div>
+                    <div className="text-muted-foreground">{"}"}</div>
+                    <div className="mt-4 flex items-center">
+                      <span className="text-primary animate-pulse">_</span>
+                    </div>
+                  </div>
+                </motion.div>
+              </div>
+            </motion.div>
             </div>
         </div>
       </div>

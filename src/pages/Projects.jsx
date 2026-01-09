@@ -6,15 +6,18 @@ import { ProjectCard } from "@/components/ProjectCard";
 import { projects } from "@/data/projects";
 import { cn } from "@/lib/utils";
 
-const categories = ["All", "Full Stack", "Backend", "Frontend"];
+
 
 export default function Projects() {
   const [activeCategory, setActiveCategory] = useState("All");
 
+  // Extract unique categories from all projects
+  const uniqueCategories = ["All", ...new Set(projects.flatMap((project) => project.category))];
+
   const filteredProjects =
     activeCategory === "All"
       ? projects
-      : projects.filter((p) => p.category === activeCategory);
+      : projects.filter((p) => Array.isArray(p.category) ? p.category.includes(activeCategory) : p.category === activeCategory);
 
   return (
     <Layout>
@@ -34,7 +37,7 @@ export default function Projects() {
             transition={{ delay: 0.2 }}
             className="flex flex-wrap justify-center gap-4 mb-12"
           >
-            {categories.map((category) => (
+            {uniqueCategories.map((category) => (
               <button
                 key={category}
                 onClick={() => setActiveCategory(category)}

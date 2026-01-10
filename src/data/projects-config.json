@@ -8,126 +8,141 @@
     "demo": "https://community-care-portal.vercel.app/",
     "featured": true
   },
-
   "https://github.com/davies-dev404/legal-motion-studio": {
-    "image": "/assets/sterling-law.png",
-    "stack": ["React", "Tailwind CSS", "Framer Motion"],
-    "featured": true,
     "title": "Sterling Law",
     "description": "Premium legal practice website built with React and Tailwind CSS. A demo website for a high-end law firm featuring modern design and smooth animations.",
-    "demo": "https://legal-motion-studio.vercel.app/"
+    "image": "/assets/sterling-law.png",
+    "category": ["Frontend", "Legal"],
+    "stack": ["React", "Tailwind CSS", "Framer Motion"],
+    "demo": "https://legal-motion-studio.vercel.app/",
+    "featured": true
   },
   "https://github.com/davies-dev404/crotchet-atelier-online-main": {
-    "image": "/assets/ecom.png",
-    "stack": ["React", "Node.js", "Stripe"],
-    "featured": true,
     "title": "E-Commerce Platform",
     "description": "A full-stack e-commerce solution with real-time inventory, payment processing, and admin dashboard.",
-    "demo": "https://tourmaline-phoenix-9d7f4e.netlify.app/"
+    "image": "/assets/ecom.png",
+    "category": ["Full Stack", "E-commerce"],
+    "stack": ["React", "Node.js", "Stripe"],
+    "demo": "https://tourmaline-phoenix-9d7f4e.netlify.app/",
+    "featured": true
   },
   "https://github.com/davies-dev404/Jirani_Eats": {
-    "image": "/assets/Jirani.png",
-    "stack": ["React", "Node.js", "Express", "MongoDB"],
-    "featured": true,
     "title": "FoodShare App",
-    "description": "A community donation app helping users share excess food with nearby recipients and organizations."
+    "description": "A community donation app helping users share excess food with nearby recipients and organizations.",
+    "image": "/assets/Jirani.png",
+    "category": ["Full Stack", "Non-Profit"],
+    "stack": ["React", "Node.js", "Express", "MongoDB"],
+    "featured": true
   },
   "https://github.com/davies-dev404/rental-manager": {
-    "image": "/assets/rental-manager.png",
-    "stack": ["React", "Node.js", "Express", "MongoDB"],
-    "featured": true,
     "title": "Dwellio – Rental Management System",
     "description": "Rental management platform for properties, tenants, invoices, and digital payments.",
-    "demo": "https://rental-manager-seven.vercel.app/"
+    "image": "/assets/rental-manager.png",
+    "category": ["Full Stack", "Management"],
+    "stack": ["React", "Node.js", "Express", "MongoDB"],
+    "demo": "https://rental-manager-seven.vercel.app/",
+    "featured": true
   },
   "https://github.com/davies-dev404/JengaWeb": {
-    "image": "/assets/jengaweb.png",
-    "stack": ["HTML", "CSS", "JavaScript"],
-    "featured": true,
     "title": "JengaWeb",
     "description": "A digital showcase platform highlighting web development services and custom design solutions.",
-    "demo": "https://davies-dev404.github.io/JengaWeb/"
+    "image": "/assets/jengaweb.png",
+    "category": ["Frontend", "Portfolio"],
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://davies-dev404.github.io/JengaWeb/",
+    "featured": true
   },
   "https://github.com/davies-dev404/Eco--Track": {
-    "image": "/assets/eco-track-v2.png",
-    "stack": ["React", "Node.js", "Express", "MongoDB"],
-    "featured": true,
     "title": "EcoTrack",
     "description": "Waste management platform for a greener future. Track recycling impact, schedule pickups, and join a sustainable community.",
-    "demo": "https://eco-track-3sic.vercel.app/"
+    "image": "/assets/eco-track-v2.png",
+    "category": ["Full Stack", "Environmental"],
+    "stack": ["React", "Node.js", "Express", "MongoDB"],
+    "demo": "https://eco-track-3sic.vercel.app/",
+    "featured": true
   },
   "https://github.com/davies-dev404/velvet-motion": {
-    "image": "/assets/velvet-motion.png",
-    "stack": ["React", "Framer Motion", "Tailwind CSS"],
-    "featured": true,
     "title": "Velvet Motion - Noir",
     "description": "A coffee shop experience featuring fluid animations and dark mode aesthetics. Every cup tells a story.",
-    "demo": "https://velvet-motion-5fsx.vercel.app/"
+    "image": "/assets/velvet-motion.png",
+    "category": ["Frontend", "E-commerce"],
+    "stack": ["React", "Framer Motion", "Tailwind CSS"],
+    "demo": "https://velvet-motion-5fsx.vercel.app/",
+    "featured": true
   },
   "https://github.com/davies-dev404/Law-Firm_": {
-    "image": "/assets/law-firm.png",
-    "stack": ["HTML", "CSS", "JavaScript"],
-    "featured": true,
     "title": "Kibet & Associates Advocates",
     "description": "Professional law firm website featuring service pages, booking, and contact automation.",
-    "demo": "https://davies-dev404.github.io/Law-Firm_/"
+    "image": "/assets/law-firm.png",
+    "category": ["Frontend", "Legal"],
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://davies-dev404.github.io/Law-Firm_/",
+    "featured": true
   },
   "https://github.com/davies-dev404/fruit_juice": {
-    "image": "/assets/juice-bar.png",
-    "stack": ["Node.js", "Express", "MongoDB", "Tailwind CSS"],
-    "featured": true,
     "title": "JuiceBar",
     "description": "A modern full-stack web application for managing juice orders.",
-    "demo": ""
+    "image": "/assets/juice-bar.png",
+    "category": ["Full Stack", "E-commerce"],
+    "stack": ["Node.js", "Express", "MongoDB", "Tailwind CSS"],
+    "demo": "",
+    "featured": true
   },
   "https://github.com/davies-dev404/davis-s-modern-portfolio": {
-    "image": "/assets/portfolio.png",
-    "stack": ["React", "Node.js", "Express"],
-    "featured": false,
     "title": "My Personal Portfolio",
-    "description": "A personal portfolio website showcasing my projects, skills, and professional experience."
+    "description": "A personal portfolio website showcasing my projects, skills, and professional experience.",
+    "image": "/assets/portfolio.png",
+    "category": ["Full Stack", "Portfolio"],
+    "stack": ["React", "Node.js", "Express"],
+    "featured": false
   },
   "https://github.com/davies-dev404/Gulfstream_": {
-    "image": "/assets/gulfstream.png",
-    "stack": ["React", "Node.js", "Express", "MongoDB"],
-    "featured": true,
     "title": "Gulfstream – E-Recycle App",
     "description": "Electronic waste recycling app enabling users to schedule pickups and track disposal progress.",
-    "demo": "https://gulfstream-recycle.vercel.app"
+    "image": "/assets/gulfstream.png",
+    "category": ["Full Stack", "Environmental"],
+    "stack": ["React", "Node.js", "Express", "MongoDB"],
+    "demo": "https://gulfstream-recycle.vercel.app",
+    "featured": true
   },
   "https://github.com/davies-dev404/solar_impact": {
-    "image": "/assets/solar.png",
-    "stack": ["React", "Node.js", "Express", "MongoDB"],
-    "featured": true,
     "title": "Solar Impact",
-    "description": "Solar energy monitoring dashboard with device tracking, energy analytics, and reporting."
+    "description": "Solar energy monitoring dashboard with device tracking, energy analytics, and reporting.",
+    "image": "/assets/solar.png",
+    "category": ["Full Stack", "Environmental"],
+    "stack": ["React", "Node.js", "Express", "MongoDB"],
+    "featured": true
   },
   "https://github.com/davies-dev404/Law-Firm": {
-    "image": "/assets/law.png",
-    "stack": ["HTML", "CSS", "JavaScript"],
-    "featured": false,
     "title": "Law Firm Website",
-    "description": "Professional law firm website featuring service pages, booking, and contact automation."
+    "description": "Professional law firm website featuring service pages, booking, and contact automation.",
+    "image": "/assets/law.png",
+    "category": ["Frontend", "Legal"],
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "featured": false
   },
   "https://github.com/davies-dev404/Rica_": {
-    "image": "/assets/rica.png",
-    "stack": ["JavaScript", "HTML", "CSS"],
-    "featured": false,
     "title": "Rica – Hotel Management App",
-    "description": "A hotel management application for booking, room service, and guest management."
+    "description": "A hotel management application for booking, room service, and guest management.",
+    "image": "/assets/rica.png",
+    "category": ["Frontend", "Hospitality"],
+    "stack": ["JavaScript", "HTML", "CSS"],
+    "featured": false
   },
   "https://github.com/davies-dev404/Clean_Swift": {
-    "image": "/assets/clean.png",
-    "stack": ["HTML", "CSS", "JavaScript"],
-    "featured": false,
     "title": "Cleaning Services Website",
-    "description": "A modern cleaning services website with service listings, pricing, contact, and booking features."
+    "description": "A modern cleaning services website with service listings, pricing, contact, and booking features.",
+    "image": "/assets/clean.png",
+    "category": ["Frontend", "Service"],
+    "stack": ["HTML", "CSS", "JavaScript"],
+    "featured": false
   },
   "https://github.com/davies-dev404/liquortrack-pro-main": {
-    "image": "/assets/liqour.png",
-    "stack": ["React", "Node.js", "Express", "MongoDB"],
-    "featured": true,
     "title": "Liquor Store MIS",
-    "description": "A complete Liquor Store Management Information System (MIS) with inventory tracking, supplier management, sales processing, reporting dashboards, and authentication."
+    "description": "A complete Liquor Store Management Information System (MIS) with inventory tracking, supplier management, sales processing, reporting dashboards, and authentication.",
+    "image": "/assets/liqour.png",
+    "category": ["Full Stack", "Management"],
+    "stack": ["React", "Node.js", "Express", "MongoDB"],
+    "featured": true
   }
 }

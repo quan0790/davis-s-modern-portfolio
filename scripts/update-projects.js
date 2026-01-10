@@ -78,6 +78,7 @@ async function fetchProjects() {
         const description = repo.description || configData?.description || "No description available.";
         const image = configData?.image || "/assets/placeholder-project.png"; // Fallback image
         const stack = configData?.stack || [repo.language || "code"];
+        const category = configData?.category || ["Web Dev"];
         const github = repo.html_url;
         const demo = configData?.demo || repo.homepage || "";
         const featured = configData?.featured || false;
@@ -88,6 +89,7 @@ async function fetchProjects() {
           description,
           image,
           stack,
+          category,
           github,
           demo,
           featured

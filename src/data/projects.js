@@ -12,6 +12,10 @@ export const projects = [
       "CSS",
       "JavaScript"
     ],
+    "category": [
+      "Frontend",
+      "Portfolio"
+    ],
     "github": "https://github.com/davies-dev404/JengaWeb",
     "demo": "https://davies-dev404.github.io/JengaWeb/",
     "featured": true
@@ -25,6 +29,10 @@ export const projects = [
       "React",
       "Tailwind CSS",
       "Vite"
+    ],
+    "category": [
+      "Frontend",
+      "Health"
     ],
     "github": "https://github.com/davies-dev404/community-care-portal",
     "demo": "https://community-care-portal.vercel.app/",
@@ -41,6 +49,10 @@ export const projects = [
       "Express",
       "MongoDB"
     ],
+    "category": [
+      "Full Stack",
+      "Environmental"
+    ],
     "github": "https://github.com/davies-dev404/Eco--Track",
     "demo": "https://eco-track-3sic.vercel.app/",
     "featured": true
@@ -55,6 +67,10 @@ export const projects = [
       "Tailwind CSS",
       "Framer Motion"
     ],
+    "category": [
+      "Frontend",
+      "Legal"
+    ],
     "github": "https://github.com/davies-dev404/legal-motion-studio",
     "demo": "https://legal-motion-studio.vercel.app/",
     "featured": true
@@ -68,6 +84,10 @@ export const projects = [
       "React",
       "Framer Motion",
       "Tailwind CSS"
+    ],
+    "category": [
+      "Frontend",
+      "E-commerce"
     ],
     "github": "https://github.com/davies-dev404/velvet-motion",
     "demo": "https://velvet-motion-5fsx.vercel.app/",
@@ -84,6 +104,10 @@ export const projects = [
       "Express",
       "MongoDB"
     ],
+    "category": [
+      "Full Stack",
+      "Management"
+    ],
     "github": "https://github.com/davies-dev404/rental-manager",
     "demo": "https://rental-manager-seven.vercel.app/",
     "featured": true
@@ -99,6 +123,10 @@ export const projects = [
       "Express",
       "MongoDB"
     ],
+    "category": [
+      "Full Stack",
+      "Non-Profit"
+    ],
     "github": "https://github.com/davies-dev404/Jirani_Eats",
     "demo": "https://jirani-eats-five.vercel.app",
     "featured": true
@@ -112,6 +140,10 @@ export const projects = [
       "React",
       "Node.js",
       "Stripe"
+    ],
+    "category": [
+      "Full Stack",
+      "E-commerce"
     ],
     "github": "https://github.com/davies-dev404/crotchet-atelier-online-main",
     "demo": "https://tourmaline-phoenix-9d7f4e.netlify.app/",
@@ -128,6 +160,10 @@ export const projects = [
       "Express",
       "MongoDB"
     ],
+    "category": [
+      "Full Stack",
+      "Management"
+    ],
     "github": "https://github.com/davies-dev404/liquortrack-pro-main",
     "demo": "",
     "featured": true
@@ -143,6 +179,10 @@ export const projects = [
       "Express",
       "MongoDB"
     ],
+    "category": [
+      "Full Stack",
+      "Environmental"
+    ],
     "github": "https://github.com/davies-dev404/solar_impact",
     "demo": "https://solar-impact.vercel.app",
     "featured": true
@@ -156,6 +196,10 @@ export const projects = [
       "HTML",
       "CSS",
       "JavaScript"
+    ],
+    "category": [
+      "Frontend",
+      "Legal"
     ],
     "github": "https://github.com/davies-dev404/Law-Firm_",
     "demo": "https://davies-dev404.github.io/Law-Firm_/",
@@ -172,6 +216,10 @@ export const projects = [
       "Express",
       "MongoDB"
     ],
+    "category": [
+      "Full Stack",
+      "Environmental"
+    ],
     "github": "https://github.com/davies-dev404/Gulfstream_",
     "demo": "https://gulfstream-recycle.vercel.app",
     "featured": true
@@ -187,6 +235,10 @@ export const projects = [
       "MongoDB",
       "Tailwind CSS"
     ],
+    "category": [
+      "Full Stack",
+      "E-commerce"
+    ],
     "github": "https://github.com/davies-dev404/fruit_juice",
     "demo": "",
     "featured": true
@@ -201,6 +253,10 @@ export const projects = [
       "Node.js",
       "Express"
     ],
+    "category": [
+      "Full Stack",
+      "Portfolio"
+    ],
     "github": "https://github.com/davies-dev404/davis-s-modern-portfolio",
     "demo": "https://davis-s-modern-portfolio.vercel.app",
     "featured": false
@@ -214,6 +270,10 @@ export const projects = [
       "JavaScript",
       "HTML",
       "CSS"
+    ],
+    "category": [
+      "Frontend",
+      "Hospitality"
     ],
     "github": "https://github.com/davies-dev404/Rica_",
     "demo": "",

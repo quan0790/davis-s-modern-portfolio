@@ -1,5 +1,7 @@
 # Hi, I’m Davis Kibet 👋
 
+![Davis Portfolio Preview](public/assets/project-preview.png)
+
 ### Full-Stack Developer (MERN Stack)
 
 I build modern, responsive, and scalable web applications using React, Node.js, Express, and MongoDB.

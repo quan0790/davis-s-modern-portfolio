@@ -3,26 +3,24 @@
 
 export const projects = [
   {
-    "id": 16,
-    "title": "Hope Specialist Hospital",
-    "description": "A comprehensive healthcare portal providing exceptional medical services, appointment booking, and patient care resources.",
-    "image": "/assets/hope-specialist.png",
-    "category": ["Frontend", "Health"],
+    "id": 1,
+    "title": "JengaWeb",
+    "description": "A digital showcase platform highlighting web development services and custom design solutions.",
+    "image": "/assets/jengaweb.png",
     "stack": [
-      "React",
-      "Tailwind CSS",
-      "Vite"
+      "HTML",
+      "CSS",
+      "JavaScript"
     ],
-    "github": "https://github.com/davies-dev404/community-care-portal", 
-    "demo": "https://community-care-portal.vercel.app/",
+    "github": "https://github.com/davies-dev404/JengaWeb",
+    "demo": "https://davies-dev404.github.io/JengaWeb/",
     "featured": true
   },
   {
-    "id": 1,
+    "id": 2,
     "title": "EcoTrack",
     "description": "Waste management platform for a greener future. Track recycling impact, schedule pickups, and join a sustainable community.",
     "image": "/assets/eco-track-v2.png",
-    "category": ["Full Stack", "Backend", "Environmental"],
     "stack": [
       "React",
       "Node.js",
@@ -34,11 +32,10 @@ export const projects = [
     "featured": true
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Sterling Law",
     "description": "Premium legal practice website built with React and Tailwind CSS. A demo website for a high-end law firm featuring modern design and smooth animations.",
     "image": "/assets/sterling-law.png",
-    "category": ["Frontend", "Legal"],
     "stack": [
       "React",
       "Tailwind CSS",
@@ -49,11 +46,10 @@ export const projects = [
     "featured": true
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Velvet Motion - Noir",
     "description": "A coffee shop experience featuring fluid animations and dark mode aesthetics. Every cup tells a story.",
     "image": "/assets/velvet-motion.png",
-    "category": ["Frontend", "E-commerce"],
     "stack": [
       "React",
       "Framer Motion",
@@ -64,11 +60,10 @@ export const projects = [
     "featured": true
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Dwellio – Rental Management System",
     "description": "Rental management platform for properties, tenants, invoices, and digital payments.",
     "image": "/assets/rental-manager.png",
-    "category": ["Full Stack", "Backend", "Management"],
     "stack": [
       "React",
       "Node.js",
@@ -80,11 +75,10 @@ export const projects = [
     "featured": true
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "FoodShare App",
     "description": "A community donation app helping users share excess food with nearby recipients and organizations.",
     "image": "/assets/Jirani.png",
-    "category": ["Full Stack", "Backend", "Non-Profit"],
     "stack": [
       "React",
       "Node.js",
@@ -96,11 +90,10 @@ export const projects = [
     "featured": true
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "E-Commerce Platform",
     "description": "A full-stack e-commerce solution with real-time inventory, payment processing, and admin dashboard.",
     "image": "/assets/ecom.png",
-    "category": ["Full Stack", "Backend", "E-commerce"],
     "stack": [
       "React",
       "Node.js",
@@ -111,11 +104,10 @@ export const projects = [
     "featured": true
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Liquor Store MIS",
     "description": "A complete Liquor Store Management Information System (MIS) with inventory tracking, supplier management, sales processing, reporting dashboards, and authentication.",
     "image": "/assets/liqour.png",
-    "category": ["Full Stack", "Backend", "Management"],
     "stack": [
       "React",
       "Node.js",
@@ -127,11 +119,10 @@ export const projects = [
     "featured": true
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Solar Impact",
     "description": "Solar energy monitoring dashboard with device tracking, energy analytics, and reporting.",
     "image": "/assets/solar.png",
-    "category": ["Full Stack", "Backend", "Environmental"],
     "stack": [
       "React",
       "Node.js",
@@ -143,26 +134,10 @@ export const projects = [
     "featured": true
   },
   {
-    "id": 9,
-    "title": "JengaWeb",
-    "description": "A digital showcase platform highlighting web development services and custom design solutions.",
-    "image": "/assets/jengaweb.png",
-    "category": ["Frontend", "Portfolio"],
-    "stack": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
-    "github": "https://github.com/davies-dev404/JengaWeb",
-    "demo": "https://davies-dev404.github.io/JengaWeb/",
-    "featured": true
-  },
-  {
     "id": 10,
     "title": "Kibet & Associates Advocates",
     "description": "Professional law firm website featuring service pages, booking, and contact automation.",
     "image": "/assets/law-firm.png",
-    "category": ["Frontend", "Legal"],
     "stack": [
       "HTML",
       "CSS",
@@ -177,7 +152,6 @@ export const projects = [
     "title": "Gulfstream – E-Recycle App",
     "description": "Electronic waste recycling app enabling users to schedule pickups and track disposal progress.",
     "image": "/assets/gulfstream.png",
-    "category": ["Full Stack", "Backend", "Environmental"],
     "stack": [
       "React",
       "Node.js",
@@ -193,7 +167,6 @@ export const projects = [
     "title": "JuiceBar",
     "description": "A modern full-stack web application for managing juice orders.",
     "image": "/assets/juice-bar.png",
-    "category": ["Full Stack", "Backend", "E-commerce"],
     "stack": [
       "Node.js",
       "Express",
@@ -201,16 +174,14 @@ export const projects = [
       "Tailwind CSS"
     ],
     "github": "https://github.com/davies-dev404/fruit_juice",
-    "demo": "https://davies-dev404.github.io/fruit_juice/",
+    "demo": "",
     "featured": true
   },
- 
   {
-    "id": 14,
+    "id": 13,
     "title": "My Personal Portfolio",
     "description": "A personal portfolio website showcasing my projects, skills, and professional experience.",
     "image": "/assets/portfolio.png",
-    "category": ["Full Stack", "Portfolio"],
     "stack": [
       "React",
       "Node.js",
@@ -221,18 +192,29 @@ export const projects = [
     "featured": false
   },
   {
+    "id": 14,
+    "title": "Community Care Portal",
+    "description": "No description available.",
+    "image": "/assets/placeholder-project.png",
+    "stack": [
+      "JavaScript"
+    ],
+    "github": "https://github.com/davies-dev404/community-care-portal",
+    "demo": "https://community-care-portal.vercel.app",
+    "featured": false
+  },
+  {
     "id": 15,
     "title": "Rica – Hotel Management App",
     "description": "A hotel management application for booking, room service, and guest management.",
     "image": "/assets/rica.png",
-    "category": ["Frontend", "Hospitality"],
     "stack": [
+      "JavaScript",
       "HTML",
-      "CSS",
-      "JavaScript"
+      "CSS"
     ],
     "github": "https://github.com/davies-dev404/Rica_",
-    "demo": "https://davies-dev404.github.io/Rica_/",
+    "demo": "",
     "featured": false
   }
 ];

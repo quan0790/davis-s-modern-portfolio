@@ -41,7 +41,7 @@ export function CodeWindow() {
               {item.text.replace(/<[^>]+>/g, '') /* Simple cleanup if mixing strings and jsx, but mostly using custom render logic below */}
                {/* Render HTML content properly */}
                <span dangerouslySetInnerHTML={{ 
-                 __html: item.text.replace(/([":,\[\]])/g, '<span class="text-gray-400">$1</span>')
+                 __html: item.text.replace(/([":,[\]])/g, '<span class="text-gray-400">$1</span>')
                                  .replace(/"([^"]+)"/g, '<span class="text-green-300">"$1"</span>') 
                }} />
             </span>

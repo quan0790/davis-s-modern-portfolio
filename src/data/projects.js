@@ -303,7 +303,26 @@ export const projects = [
     "featured": true
   },
   {
+<<<<<<< HEAD
     "id": 17,
+=======
+    "id": 14,
+    "title": "Logistics Solutions Hub",
+    "description": "No description available.",
+    "image": "/assets/placeholder-project.png",
+    "stack": [
+      "JavaScript"
+    ],
+    "category": [
+      "Web Dev"
+    ],
+    "github": "https://github.com/davies-dev404/Logistics-Solutions-Hub",
+    "demo": "",
+    "featured": false
+  },
+  {
+    "id": 15,
+>>>>>>> e181eea94485d76bc5caa481ae5460d22cc49035
     "title": "My Personal Portfolio",
     "description": "A personal portfolio website showcasing my projects, skills, and professional experience.",
     "image": "/assets/portfolio.png",
@@ -321,7 +340,26 @@ export const projects = [
     "featured": false
   },
   {
+<<<<<<< HEAD
     "id": 18,
+=======
+    "id": 16,
+    "title": "Strategic Impact",
+    "description": "No description available.",
+    "image": "/assets/placeholder-project.png",
+    "stack": [
+      "JavaScript"
+    ],
+    "category": [
+      "Web Dev"
+    ],
+    "github": "https://github.com/davies-dev404/Strategic-Impact",
+    "demo": "",
+    "featured": false
+  },
+  {
+    "id": 17,
+>>>>>>> e181eea94485d76bc5caa481ae5460d22cc49035
     "title": "Rica – Hotel Management App",
     "description": "A hotel management application for booking, room service, and guest management.",
     "image": "/assets/rica.png",

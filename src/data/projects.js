@@ -4,6 +4,65 @@
 export const projects = [
   {
     "id": 1,
+    "title": "Kenya Property Connect",
+    "description": "Kenya's premier real estate platform connecting families and investors with quality homes, land, and luxury estates across all 47 counties.",
+    "image": "/assets/kenya-property-connect.png",
+    "stack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Framer Motion"
+    ],
+    "category": [
+      "Full Stack",
+      "Real Estate"
+    ],
+    "github": "https://github.com/davies-dev404/kenya-property-connect",
+    "demo": "https://kenya-property-connect.vercel.app/",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "TransCorp Logistics Hub",
+    "description": "A premium, high-performance logistics and transport management platform designed for the East African market.",
+    "image": "/assets/transcorp-logistics.png",
+    "stack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "Framer Motion"
+    ],
+    "category": [
+      "Full Stack",
+      "Logistics"
+    ],
+    "github": "https://github.com/davies-dev404/Logistics-Solutions-Hub",
+    "demo": "https://logistics-solutions-hub-fkr7.vercel.app/",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Luminary Strategic Impact",
+    "description": "A premier strategic communications platform designed to showcase agency mission, leadership, and service portfolio with narrative-driven design.",
+    "image": "/assets/strategic-impact.png",
+    "stack": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Framer Motion"
+    ],
+    "category": [
+      "Frontend",
+      "Communications"
+    ],
+    "github": "https://github.com/davies-dev404/Strategic-Impact",
+    "demo": "https://strategic-impact.vercel.app/",
+    "featured": true
+  },
+  {
+    "id": 4,
     "title": "JengaWeb",
     "description": "A digital showcase platform highlighting web development services and custom design solutions.",
     "image": "/assets/jengaweb.png",
@@ -21,7 +80,7 @@ export const projects = [
     "featured": true
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Hope Specialist Hospital",
     "description": "A comprehensive healthcare portal providing exceptional medical services, appointment booking, and patient care resources.",
     "image": "/assets/hope-specialist.png",
@@ -39,7 +98,7 @@ export const projects = [
     "featured": true
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "EcoTrack",
     "description": "Waste management platform for a greener future. Track recycling impact, schedule pickups, and join a sustainable community.",
     "image": "/assets/eco-track-v2.png",
@@ -58,7 +117,7 @@ export const projects = [
     "featured": true
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "Sterling Law",
     "description": "Premium legal practice website built with React and Tailwind CSS. A demo website for a high-end law firm featuring modern design and smooth animations.",
     "image": "/assets/sterling-law.png",
@@ -76,7 +135,7 @@ export const projects = [
     "featured": true
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "Velvet Motion - Noir",
     "description": "A coffee shop experience featuring fluid animations and dark mode aesthetics. Every cup tells a story.",
     "image": "/assets/velvet-motion.png",
@@ -94,7 +153,7 @@ export const projects = [
     "featured": true
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "Dwellio – Rental Management System",
     "description": "Rental management platform for properties, tenants, invoices, and digital payments.",
     "image": "/assets/rental-manager.png",
@@ -113,7 +172,7 @@ export const projects = [
     "featured": true
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "FoodShare App",
     "description": "A community donation app helping users share excess food with nearby recipients and organizations.",
     "image": "/assets/Jirani.png",
@@ -132,7 +191,7 @@ export const projects = [
     "featured": true
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "E-Commerce Platform",
     "description": "A full-stack e-commerce solution with real-time inventory, payment processing, and admin dashboard.",
     "image": "/assets/ecom.png",
@@ -150,7 +209,7 @@ export const projects = [
     "featured": true
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "Liquor Store MIS",
     "description": "A complete Liquor Store Management Information System (MIS) with inventory tracking, supplier management, sales processing, reporting dashboards, and authentication.",
     "image": "/assets/liqour.png",
@@ -169,7 +228,7 @@ export const projects = [
     "featured": true
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "Solar Impact",
     "description": "Solar energy monitoring dashboard with device tracking, energy analytics, and reporting.",
     "image": "/assets/solar.png",
@@ -188,7 +247,7 @@ export const projects = [
     "featured": true
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "Kibet & Associates Advocates",
     "description": "Professional law firm website featuring service pages, booking, and contact automation.",
     "image": "/assets/law-firm.png",
@@ -206,7 +265,7 @@ export const projects = [
     "featured": true
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "Gulfstream – E-Recycle App",
     "description": "Electronic waste recycling app enabling users to schedule pickups and track disposal progress.",
     "image": "/assets/gulfstream.png",
@@ -225,7 +284,7 @@ export const projects = [
     "featured": true
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "JuiceBar",
     "description": "A modern full-stack web application for managing juice orders.",
     "image": "/assets/juice-bar.png",
@@ -244,7 +303,7 @@ export const projects = [
     "featured": true
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "My Personal Portfolio",
     "description": "A personal portfolio website showcasing my projects, skills, and professional experience.",
     "image": "/assets/portfolio.png",
@@ -262,7 +321,7 @@ export const projects = [
     "featured": false
   },
   {
-    "id": 15,
+    "id": 18,
     "title": "Rica – Hotel Management App",
     "description": "A hotel management application for booking, room service, and guest management.",
     "image": "/assets/rica.png",
@@ -276,6 +335,24 @@ export const projects = [
       "Hospitality"
     ],
     "github": "https://github.com/davies-dev404/Rica_",
+    "demo": "",
+    "featured": false
+  },
+  {
+    "id": 19,
+    "title": "Cleaning Services Website",
+    "description": "A modern cleaning services website with service listings, pricing, contact, and booking features.",
+    "image": "/assets/clean.png",
+    "stack": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "category": [
+      "Frontend",
+      "Service"
+    ],
+    "github": "https://github.com/davies-dev404/Clean_Swift",
     "demo": "",
     "featured": false
   }

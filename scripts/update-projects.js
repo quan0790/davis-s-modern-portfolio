@@ -38,6 +38,9 @@ async function fetchProjects() {
 
     const projects = repos
       .filter(repo => {
+        const configData = config[repo.html_url] || config[repo.html_url.replace(/\/$/, "")];
+        if (configData) return true; // Always include if in config
+        
         if (repo.fork) return false;
         
         // Filter out PLP projects

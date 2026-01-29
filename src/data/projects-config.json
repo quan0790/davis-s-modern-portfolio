@@ -144,5 +144,32 @@
     "category": ["Full Stack", "Management"],
     "stack": ["React", "Node.js", "Express", "MongoDB"],
     "featured": true
+  },
+  "https://github.com/davies-dev404/kenya-property-connect": {
+    "title": "Kenya Property Connect",
+    "description": "Kenya's premier real estate platform connecting families and investors with quality homes, land, and luxury estates across all 47 counties.",
+    "image": "/assets/kenya-property-connect.png",
+    "category": ["Full Stack", "Real Estate"],
+    "stack": ["React", "Vite", "Tailwind CSS", "Shadcn UI", "Framer Motion"],
+    "demo": "https://kenya-property-connect.vercel.app/",
+    "featured": true
+  },
+  "https://github.com/davies-dev404/Logistics-Solutions-Hub": {
+    "title": "TransCorp Logistics Hub",
+    "description": "A premium, high-performance logistics and transport management platform designed for the East African market.",
+    "image": "/assets/transcorp-logistics.png",
+    "category": ["Full Stack", "Logistics"],
+    "stack": ["React", "Vite", "Tailwind CSS", "Shadcn UI", "Framer Motion"],
+    "demo": "https://logistics-solutions-hub-fkr7.vercel.app/",
+    "featured": true
+  },
+  "https://github.com/davies-dev404/Strategic-Impact": {
+    "title": "Luminary Strategic Impact",
+    "description": "A premier strategic communications platform designed to showcase agency mission, leadership, and service portfolio with narrative-driven design.",
+    "image": "/assets/strategic-impact.png",
+    "category": ["Frontend", "Communications"],
+    "stack": ["React", "Vite", "Tailwind CSS", "Framer Motion"],
+    "demo": "https://strategic-impact.vercel.app/",
+    "featured": true
   }
 }
